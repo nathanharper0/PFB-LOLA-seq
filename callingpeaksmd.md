@@ -13,7 +13,7 @@ data=pd.read_csv('/Users/pfb2024/Downloads/MA8_genome_cov_bg.txt',sep='\t',heade
 data.hist(column=3,range=[0,100],bins=50)
 plt.axvline(x=20, color = 'red')
 plt.title('counts')
-!(histogramofdepths_ATAC.png)
+!(PFB-LOLA-seq/generatingfiles/callpeaksfigs/histogramofdepths_ATACseq.png)
 ```
 Peak length distribution (before filtering):
 ```
