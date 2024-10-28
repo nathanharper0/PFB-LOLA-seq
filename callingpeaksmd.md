@@ -156,3 +156,6 @@ chr1    1307898 1308551
 $wc -l MA8_depth200_length100.txt
 7438 MA8_depth200_length100.txt
 ```
+
+# Creating fragment index file
+tabix -p bed filename.tsv.gz
